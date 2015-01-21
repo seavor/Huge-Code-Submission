@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>HUGE NavExercise</title>
+    <link rel="stylesheet" href="/styles/style.css">
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="navWrapper">
+			<div id="siteID">
+				<a href="#/" onclick="closeMenus(event, true)"></a>
+			</div>
+	 		<nav id='mainNav'></nav>
+		</div>
+		<button class="hamburger" type="button" onclick="toggleMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+
+	<section class="mainSection">
+	
+		<div class="hero">
+			<img src="images/background-image.jpg">
+		</div>
+		
+		<div class="mainHeader">
+			<h1>
+				Get paid for<br>
+				giving a shit.
+			</h1>
+		</div>
+
+		<div class="mainContent">
+			<!-- start slipsum code -->
+			<p>
+				The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+			</p>
+			<!-- please do not remove this line -->
+			<div style="display:none;"><a href="http://slipsum.com">lorem ipsum</a></div>
+			<!-- end slipsum code -->
+		</div>
+	</section>
+
+	<div id="overlay" onclick="closeMenus(event, true)"></div>
+	<script src="http://localhost:35729/livereload.js"></script> <!-- Grunt livereload command -->
+</body>
+</html>
